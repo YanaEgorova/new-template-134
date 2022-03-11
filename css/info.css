@@ -1,0 +1,98 @@
+.contacts-section {
+   padding: 10rem 0;
+   text-align: center;
+}
+.contacts-section__item:not(:last-child) {
+   margin-bottom: 2rem;
+}
+.contacts-section__item svg {
+   display: block;
+   width: 4rem;
+   height: 4rem;
+   margin-bottom: 1rem;
+   fill: var(--second-brand-color);
+}
+.contacts-section__item {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.contacts-section .text--mb {
+   margin-bottom: 8rem;
+}
+
+
+
+
+.title-section,
+.info {
+   padding: 15rem 0;
+   text-align: center;
+}
+.title-section .text,
+.info .text {
+   max-width: 60rem;
+}
+.info__title {
+   font-family: var(--title-font);
+   color: var(--second-brand-color);
+}
+.info__item:not(:last-child) {
+   margin-bottom: 8rem;
+}
+
+
+
+.title-section__sub-wrapper {
+   background-color: var(--second-brand-color);
+}
+.title-section__sub-wrapper .title {
+   color: var(--sub-text-color);
+}
+
+@media screen and (min-width: 1440px)  {
+   .contacts-section__list {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+   }
+   .contacts-section__item:not(:last-child) {
+      margin-bottom: 0;
+   }
+   .contacts-section__wrapper {
+      background-image: url("data:image/svg+xml, %3Csvg viewBox='0 0 620 400' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.24249e-05 221.811C2.09575e-05 99.4427 126.648 1.69347e-05 283.342 3.41094e-05C440.036 5.12841e-05 428.627 115.52 506.593 221.811C597.872 346.263 388.693 443.622 266.608 379.907C136.537 312.024 3.89232e-06 344.179 1.24249e-05 221.811Z' fill='%236c6ecb'/%3E%3Cpath d='M48 231.084C48 124.012 184.943 37 354.374 37C523.805 37.0001 511.468 138.08 595.772 231.085C694.47 339.98 468.288 425.169 336.279 369.419C195.635 310.021 48 338.157 48 231.084Z' fill='%23dbecf7'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+   }
+   .contacts-section {
+      padding: 30rem 0;
+   }
+   .contacts-section__link {
+      transition: all .3s ease-in-out;
+   }
+   .contacts-section__link:hover {
+      color: var(--second-brand-color);
+   }
+
+
+   .info__list {
+      display: flex;
+      justify-content: space-between;
+   }
+   .info__item:not(:last-child) {
+      margin-bottom: 0;
+   }
+   .info__item .img {
+      width: 50rem;
+      height: 40rem;
+      object-fit: contain;
+   }
+
+   .title-section__sub-wrapper .title {
+      font-size: 12rem;
+   }
+}
+
+

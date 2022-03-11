@@ -1,0 +1,23 @@
+:root {
+    --main-bg-color: #fff;
+    --sub-bg-color: #000;
+    --sub-text-color: #fff;
+    --inactive: rgb(161, 161, 161);
+    --accent-color: red;
+    --checkbox-color: #6699ff;
+
+    --main-text-color: #403e3c;
+
+    
+    --first-brand-color: #dbecf7;
+    --second-brand-color: #6c6ecb;
+    --third-brand-color: #ebda85;
+    --fourth-brand-color:#a62424;
+
+
+    --main-font: 'Oswald';
+    --title-font: 'Oswald Medium';
+    --main-title-font: 'Allura';
+    
+    font-size: 62.5%;
+}
